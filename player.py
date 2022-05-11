@@ -1,4 +1,4 @@
-from game.card import card
+from gamehilo.card import card
 
 
 class player:
@@ -8,7 +8,7 @@ class player:
         self.score = 300
 
     def results(self):
-        print("Your score is" + self.points)
+        print("Your score is" + self.score)
 
 
 
