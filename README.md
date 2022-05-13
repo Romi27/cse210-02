@@ -1,8 +1,7 @@
 README.MD
-Making attractive and usable readme's. This is a short description about the content of my proyect. This text have to be simple and explicit.
-
+The code is called the "Hilo game". The game consists of the player guessing if the next card drawn by the dealer will be higher or lower than the previous one. Points are won or lost based on whether or not the player guessed correctly. The purpose of work in this project is to build a solid foundation of knowledge about how abstraction is used.
 Content
-This proyect has two branches: develop1 and develop2. develop1 contains the tests of the repositories and develop2 contains the test of the use cases.
+our repository content a branch where it stores three files. 
 
 Demo
 If you want to see the demo of this proyect deployed, you can visit Demo of the proyect
