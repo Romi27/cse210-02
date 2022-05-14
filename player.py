@@ -10,17 +10,7 @@ class Player:
         self.cards = [Card()]
         self.score = 300
         self.is_playing = self.check_life()
-    def start_game(self):
-        """Starts the game by running the main game loop.
         
-        Args:
-            self (Director): an instance of Director.
-        """
-        while self.is_playing == True:
-            self.get_inputs()
-            self.do_updates()
-            self.do_outputs()  
-            self.play()         
     def check_life(self):#Checks if the score is enough to continue playing
         if self.score > 0:
             return True
