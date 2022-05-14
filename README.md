@@ -3,6 +3,7 @@ The code is called the "Hilo game". The game consists of the player guessing if 
 Content
 our repository content a branch where it stores three files. 
 Card's file is which complies with the logical part of the program, it returns a value true or false, depending what chose the user and calculate the points during the game  
+Player's file is who make the intruction of the game throug functions which make abstraction in the game. That's mean that echa function is focused is each detail of the director o rr in this case player's action. This 
 
 Demo
 If you want to see the demo of this proyect deployed, you can visit Demo of the proyect
