@@ -10,7 +10,7 @@ class Player:
         self.cards = [Card()]
         self.score = 300
         self.is_playing = self.check_life()
-        
+          
     def check_life(self):#Checks if the score is enough to continue playing
         if self.score > 0:
             return True
@@ -18,7 +18,7 @@ class Player:
             return False
 
     def get_inputs(self):#Gets the input.
-        card_guess = str(input("Higuer or lower? [h/l] "))
+        card_guess = input("higuer or lower? [h/l] ")
         return card_guess
 
 #Updates the attirbutes. Creates a new Card object to be the "next card" and adds it to the cards list.
@@ -33,7 +33,7 @@ class Player:
 #Outputs the cards and the score.
     def do_outputs(self):
         self.do_updates()  
-        print(f"Next card was: {self.cards[1].card}")
+        print(f"Next card is: {self.cards[1].card}")
         print(f"Your score is: {self.score}\n")
         self.cards.pop(0)
     
@@ -49,5 +49,9 @@ class Player:
 def main():
     game=Player()    
     game.play()
-main()
+
+
+if __name__ == "__main__":
+    main()
+
 
