@@ -18,7 +18,7 @@ class Player:
             return False
 
     def get_inputs(self):#Gets the input.
-        card_guess = input("higuer or lower? [h/l] ")
+        card_guess = input("higher or lower? [h/l] ")
         return card_guess
 
 #Updates the attirbutes. Creates a new Card object to be the "next card" and adds it to the cards list.
