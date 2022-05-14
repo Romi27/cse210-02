@@ -16,6 +16,7 @@ The project structure is:
 
 
 Authors:
+
 Romina Canteros
 
 Crystal Hatsumi Cardenas
