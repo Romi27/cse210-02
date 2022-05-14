@@ -7,8 +7,11 @@ In order to run the program you need to download it from the repository and run 
 The project structure is:
 
 +Hilo game folder
+
 --+cards.py
+
 --+player.py
+
 -+Readme file
 
 
