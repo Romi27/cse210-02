@@ -1,4 +1,6 @@
-README.MD The code is called the "Hilo game". The game consists on testing your intuition capacities by guessing if the next card is higher or lower than the open card. If your choice is right you will earn 100 points, but if your choice is wrong you are going to loose 75 points. At the beginning of the game you will receive 300 points, the game will be over, if you run out of points.
+README.MD 
+
+The code is called the "Hilo game". The game consists on testing your intuition capacities by guessing if the next card is higher or lower than the open card. If your choice is right you will earn 100 points, but if your choice is wrong you are going to loose 75 points. At the beginning of the game you will receive 300 points, the game will be over, if you run out of points.
 In order to run the program you need to download it from the repository and run it on Python 3 or VS Code.
 The project structure is:
 +Hilo game folder
@@ -9,8 +11,11 @@ The project structure is:
 
 Authors:
 Romina Canteros
+
 Crystal Hatsumi Cardenas
+
 Brendon Hamson
+
 Cristian Lopez
 
 Project structure:
