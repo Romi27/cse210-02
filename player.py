@@ -3,12 +3,24 @@ from card import Card
 #"score" which is the sum of the points made for each guess and "is_playing" which determines if the game can 
 #continue according to the score.
 class Player:
+ 
+
 
     def __init__(self):
         self.cards = [Card()]
         self.score = 300
         self.is_playing = self.check_life()
-    
+    def start_game(self):
+        """Starts the game by running the main game loop.
+        
+        Args:
+            self (Director): an instance of Director.
+        """
+        while self.is_playing == True:
+            self.get_inputs()
+            self.do_updates()
+            self.do_outputs()  
+            self.play()         
     def check_life(self):#Checks if the score is enough to continue playing
         if self.score > 0:
             return True
@@ -36,14 +48,16 @@ class Player:
         self.cards.pop(0)
     
     def play(self):
-        while self.is_playing:
+        while self.is_playing == True:
             current_card = self.cards[0]
             print(f"The card is: {current_card.card}\n")
             self.do_outputs()
             if self.is_playing == False:
                 break
         
+    
 def main():
-    new_game = Player()
-    new_game.play()
+    game=Player()    
+    game.play()
 main()
+
