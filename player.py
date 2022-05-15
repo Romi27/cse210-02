@@ -2,7 +2,7 @@ from card import Card
 #Class Player represents each game played. It has three attributes: "cards" which are the cards used for the game,
 #"score" which is the sum of the points made for each guess and "is_playing" which determines if the game can 
 #continue according to the score.
-class Player:
+class Captain:
  
 
 
@@ -47,7 +47,7 @@ class Player:
         
     
 def main():
-    game=Player()    
+    game=Captain()    
     game.play()
 
 
