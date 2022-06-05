@@ -1,3 +1,4 @@
+import random
 #creates a class for a card. Card object has a card number (self.card) and the points for each right guess
 class Card:
         def __init__(self):
@@ -23,3 +24,4 @@ class Card:
                 elif self.check_guess(guess, previous_card) == False:
                         self.points -= 75     
                         return self.points
+
